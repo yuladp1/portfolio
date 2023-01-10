@@ -23,12 +23,14 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 .wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   overflow: clip;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Open Sans";
   font-style: normal;
   color: black;
 }
@@ -36,5 +38,17 @@ export default {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.project__link-ghpages > figure,
+.project__link-gh > figure {
+  width: 200px;
+  background-size: contain;
+  height: 250px;
+}
+.project__link-ghpages > figure {
+  background: url("./assets/icons/github-pages.webp");
+}
+.project__link-gh > figure {
+  background: url("./assets/icons/GitHub.png");
 }
 </style>

@@ -3,7 +3,8 @@
     <div class="_container">
       <div class="about-me__wrapper">
         <div class="about-me__content">
-          Hi! I am Julia Romanovska - <br />
+          Hi! <br />
+          I am Julia Romanovska - <br />
           super-puper developer!!! :)))))
         </div>
         <div class="about-me__links">
@@ -36,14 +37,20 @@ export default {
 }
 .about-me__wrapper {
   display: flex;
-  margin: 100px;
+  margin: 50px 0;
+  align-items: center;
+  justify-content: center;
 }
 .about-me__content {
-  display: flex;
-  padding: 40px;
-  font-size: 42px;
-  font-weight: 600;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+
+  color: #ffffff;
 }
+
 .about-me__links {
   padding: 40px;
   display: flex;
