@@ -74,6 +74,7 @@ export default {
 
 <style scoped>
 .sandbox {
+  padding-top: 150px;
 }
 .sandbox__title {
   font-family: "Poppins";
