@@ -33,7 +33,7 @@ export default {
   overflow: clip;
   /* font-family: "Montserrat";
   font-family: "Open Sans"; */
-  font-family: "PacificNorthwestRoughW04";
+  font-family: "Monument Extended Ultrabold";
   font-style: normal;
   color: black;
 }
@@ -41,6 +41,16 @@ export default {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 15px;
+}
+._title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 54px;
+  text-align: center;
+  padding: 100px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 .project__link-ghpages > figure,
 .project__link-gh > figure {

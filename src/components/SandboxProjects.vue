@@ -1,6 +1,6 @@
 <template>
   <div class="sandbox__wrapper sandbox">
-    <h2 class="sandbox__title">Projects</h2>
+    <h2 class="sandbox__title _title">Projects</h2>
     <section class="sandbox__projects projects _container">
       <div class="projects__project project">
         <figure class="project__image">
@@ -11,11 +11,9 @@
           <p class="project__overview">Landing page</p>
           <div class="project__links">
             <a href="https://yuladp1.github.io/growfy/" class="project__link-ghpages">
-              <span>go live page</span></a
+              go live page</a
             >
-            <a href="https://github.com/yuladp1/growfy" class="project__link-gh">
-              <span>Code</span></a
-            >
+            <a href="https://github.com/yuladp1/growfy" class="project__link-gh"> Code</a>
           </div>
         </div>
       </div>
@@ -48,10 +46,10 @@
           <p class="project__overview">rfrjq kdjfkdjfkjdfksjdfkjkfjsdkfjskdjfhsk</p>
           <div class="project__links">
             <a href="https://yuladp1.github.io/crypto-vue/" class="project__link-ghpages">
-              <span>go live page</span></a
+              go live page</a
             >
             <a href="https://github.com/yuladp1/crypto-vue" class="project__link-gh">
-              <span>Code</span></a
+              Code</a
             >
           </div>
         </div>
@@ -75,16 +73,6 @@ export default {
 <style scoped>
 .sandbox {
   padding-top: 150px;
-}
-.sandbox__title {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 54px;
-  text-align: center;
-  padding: 100px 0;
-  text-transform: uppercase;
 }
 .sandbox__projects {
 }
@@ -127,31 +115,15 @@ export default {
 }
 .project__links > a {
   flex: 0 1 50%;
-}
-.project__link-ghpages > span,
-.project__link-gh > span {
-  display: block;
-  width: auto;
-  line-height: 80px;
-
-  position: relative;
-  border: 1px solid black;
-  font-size: 22px;
-  text-transform: uppercase;
-  background: white;
-}
-.project__link-gh > span {
-  padding: 0 20px 0 100px;
-}
-.project__link-ghpages > span {
-  padding: 0 20px 0 10px;
+  padding: 20px 30px;
+  border: 2px solid black;
 }
 
 .project__content-title {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 2rem;
   line-height: 87px;
 }
 .project__overview {
