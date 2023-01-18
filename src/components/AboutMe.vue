@@ -12,7 +12,7 @@
         </div>
       </transition>
 
-      <div class="about-me__links">
+      <div class="about-me__links" div v-motion-roll-bottom>
         <transition @before-enter="beforenterLink" @enter="enterLink" appear>
           <a href="https://github.com/yuladp1" target="_blank">github</a>
         </transition>

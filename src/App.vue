@@ -8,7 +8,6 @@
 <script>
 import AboutMe from "./components/AboutMe.vue";
 import SandboxProjects from "./components/SandboxProjects.vue";
-
 export default {
   name: "App",
   components: {

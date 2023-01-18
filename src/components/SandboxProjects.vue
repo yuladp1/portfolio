@@ -3,22 +3,22 @@
     <h2 class="sandbox__title _title">Projects</h2>
     <section class="sandbox__projects projects _container">
       <div class="projects__project project">
-        <figure class="project__image">
+        <figure class="project__image" v-motion-slide-visible-left>
           <img src="../assets/projects-image/growfy.png" alt="" />
         </figure>
         <div class="project__content">
-          <h2 class="project__content-title">Project GROWFY</h2>
+          <h2 class="project__content-title" v-motion-pop-visible>Project GROWFY</h2>
           <p class="project__overview">Landing page</p>
           <div class="project__links">
-            <a href="https://yuladp1.github.io/growfy/" class="project__link-ghpages">
+            <a href="https://yuladp1.github.io/growfy/" class="project__link-ghpages" v-motion-pop-visible>
               go live page</a
             >
-            <a href="https://github.com/yuladp1/growfy" class="project__link-gh"> Code</a>
+            <a href="https://github.com/yuladp1/growfy" class="project__link-gh" v-motion-pop-visible> Code</a>
           </div>
         </div>
       </div>
       <div class="projects__project project">
-        <figure class="project__image">
+        <figure class="project__image" v-motion-slide-visible-left>
           <img src="../assets/projects-image/relvise.png" alt="" />
         </figure>
         <div class="project__content">
@@ -28,27 +28,28 @@
             <a
               href="https://yuladp1.github.io/relvise-vue/"
               class="project__link-ghpages"
+              v-motion-pop-visible
             >
               <span>go live page</span></a
             >
-            <a href="https://github.com/yuladp1/relvise-vue" class="project__link-gh">
+            <a href="https://github.com/yuladp1/relvise-vue" class="project__link-gh" v-motion-pop-visible>
               <span>Code</span></a
             >
           </div>
         </div>
       </div>
       <div class="projects__project project">
-        <figure class="project__image">
+        <figure class="project__image" v-motion-slide-visible-left>
           <img src="../assets/projects-image/crypto.png" alt="" />
         </figure>
         <div class="project__content">
           <h2 class="project__content-title">Project CRYPTO</h2>
           <p class="project__overview">rfrjq kdjfkdjfkjdfksjdfkjkfjsdkfjskdjfhsk</p>
           <div class="project__links">
-            <a href="https://yuladp1.github.io/crypto-vue/" class="project__link-ghpages">
+            <a href="https://yuladp1.github.io/crypto-vue/" class="project__link-ghpages" v-motion-pop-visible>
               go live page</a
             >
-            <a href="https://github.com/yuladp1/crypto-vue" class="project__link-gh">
+            <a href="https://github.com/yuladp1/crypto-vue" class="project__link-gh" v-motion-pop-visible>
               Code</a
             >
           </div>
